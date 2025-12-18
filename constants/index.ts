@@ -228,13 +228,27 @@ export const AIResponseFormat = `
 export const prepareInstructions = ({
                                       jobTitle,
                                       jobDescription,
-                                      AIResponseFormat,
+                                      // AIResponseFormat,
                                     }: {
   jobTitle: string;
   jobDescription: string;
-  AIResponseFormat: string;
+  // AIResponseFormat: string;
 }) =>
-  `You are an expert in ATS (Applicant Tracking System) and resume analysis.
+  `Eres experto en ATS (Sistema de Seguimiento de Candidatos) y análisis de currículums.
+Por favor, analiza y califica este currículum y sugiere cómo mejorarlo.
+La calificación puede ser baja si el currículum es deficiente.
+Sé minucioso y detallado. No dudes en señalar errores o áreas de mejora.
+Si hay mucho que mejorar, no dudes en otorgar puntuaciones bajas. Esto es para ayudar al usuario a mejorar su currículum.
+Si está disponible, utiliza la descripción del puesto al que se postula el usuario para proporcionar comentarios más detallados.
+Si se proporciona, ten en cuenta la descripción del puesto.
+El título del puesto es: ${jobTitle}
+La descripción del puesto es: ${jobDescription}
+Proporciona los comentarios utilizando el siguiente formato: ${AIResponseFormat}
+Devuelve el análisis como un objeto JSON, sin ningún otro texto ni comillas invertidas.
+No incluyas ningún otro texto ni comentarios.`;
+
+/*
+You are an expert in ATS (Applicant Tracking System) and resume analysis.
   Please analyze and rate this resume and suggest how to improve it.
   The rating can be low if the resume is bad.
   Be thorough and detailed. Don't be afraid to point out any mistakes or areas for improvement.
@@ -245,4 +259,5 @@ export const prepareInstructions = ({
   The job description is: ${jobDescription}
   Provide the feedback using the following format: ${AIResponseFormat}
   Return the analysis as a JSON object, without any other text and without the backticks.
-  Do not include any other text or comments.`;
+  Do not include any other text or comments.
+ */
