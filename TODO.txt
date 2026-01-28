@@ -1,0 +1,43 @@
+Resume analyzer
+----------------------------------------------------------------------------
+Video 2:27
+	https://www.youtube.com/watch?v=iYOz165wGkQ&t=1982s
+Tabs
+	* http://localhost:5173/resume/b95a5737-ded1-478e-8b45-26435e324d15
+	* Translate google
+	* https://jsmastery.com/video-kit/8fcd696f-9147-492c-bb96-a4d8108f849c
+	* https://github.com/adrianhajdin/ai-resume-analyzer/tree/main/app
+	* https://puter.com/
+	* https://docs.puter.com/
+	* https://github.com/operez2000/ai-resume-anaylizer/tree/main
+
+
+ATS = Applicant Tracker System (Sistema de seguimiento de solicitantes)
+
+Aditi LATAM
+Senior Node Developer
+
+	About the job
+	Aditi LATAM
+
+	Reimagine your reality
+
+	Join ADITI as a Senior Node Developer and be part of a strategic project for a global leader in innovation, standing up a pioneering team focused on developing an agentic shopping agent that will be integrated into their existing mobile platforms. This initiative is the foundational roadmap for deploying future AI-driven agents across the organization. This is a unique opportunity to work at the intersection of retail, mobile technology, and cutting-edge AI.
+
+	Required skills for this role:
+
+	+5 years of experience coding with Node.js, TypeScript, Express, and NestJS.
+
+	Strong experience with GraphQL, including Apollo Server and WebSockets for subscriptions.
+	Hands-on experience with AI Agent frameworks (LangChain or OpenAI) and Vector Databases (Pinecone or Weaviate).
+	Deep knowledge of SQL and NoSQL databases (PostgreSQL, MongoDB).
+
+	Experience with distributed messaging/caching technologies (Kafka and Redis).
+
+	Proficiency working with Cloud services (AWS: Lambda, ECS, DynamoDB and/or GCP: Cloud Run, Pub/Sub).
+
+	Solid unit and integration testing skills using Jest, Mocha, or Chai.
+
+	Soft skills:
+	Autonomy and Ownership: Must be able to jump in and complete the work with minimal oversight and take ownership of critical components.
+	Problem Solver: Ability to navigate complex technical challenges in a fast-paced, innovative environment.

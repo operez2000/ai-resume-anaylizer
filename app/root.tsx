@@ -1,5 +1,5 @@
 import {
-  isRouteErrorResponse,
+  isRouteErrorResponse, Link,
   Links,
   Meta,
   Outlet,
@@ -62,8 +62,20 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     message = error.status === 404 ? "404" : "Error";
     details =
       error.status === 404
-        ? "The requested page could not be found."
+        ? "La página solicitada no se ha encontrado."
         : error.statusText || details;
+    return (
+      <div className="m-8">
+        <h1>{message}</h1>
+        <h2 className="mb-4">La página solicitada no se ha encontrado.</h2>
+        <hr/>
+        <h2 className="mt-4">
+          <Link to="/" className="font-bold text-gradient text-blue-800 pl-2">
+            Regresar a Inicio
+          </Link>
+        </h2>
+      </div>
+    )
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
     stack = error.stack;
